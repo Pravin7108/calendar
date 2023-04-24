@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="calendar.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <div id="month"></div>
+        <div>
+            <button id="btnBack"><i class="fa fa-angle-left"></i></button>
+            <button id="btnNext"><i class="fa fa-angle-right"></i></button>
+        </div>
+    </div>
+    <div class="weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+    </div>
+    <div id="calendar">
+        <!-- <div class="day plain"></div>
+        <div class="day plain"></div>
+        <div class="day plain"></div>
+        <div class="day">1</div>
+        <div class="day">2</div>
+        <div class="day">3</div>
+        <div class="day">4</div>
+        <div class="day">5</div>
+        <div class="day">6</div>
+        <div class="day">7</div>
+        <div class="day">8 <div class="event">Project Work</div>
+        </div>
+        <div class="day">9</div>
+        <div class="day">10</div>
+        <div class="day">11</div>
+        <div class="day">12</div>
+        <div class="day">13</div>
+        <div class="day">14</div>
+        <div class="day">15</div>
+        <div class="day">16 <div class="event">Birthday</div></div>
+        <div class="day">17</div>
+        <div class="day">18</div>
+        <div class="day">19</div>
+        <div class="day">20</div>
+        <div class="day">21</div>
+        <div class="day" id="currentDay">22</div>
+        <div class="day">23</div>
+        <div class="day">24</div>
+        <div class="day">25</div>
+        <div class="day">26</div>
+        <div class="day">27</div>
+        <div class="day">28</div>
+        <div class="day">29</div>
+        <div class="day">30</div>
+        <div class="day">31</div> -->
+    </div>
+   </div>
+   <div id="modal"></div>
+   <div id="addEvent">
+    <h2>Add Event</h2>
+    <input type="text" id="txtTitle" placeholder="Event Title">
+    <button id="btnSave">Save</button>
+    <button class="btnClose">Close</button>
+   </div>
+
+   <div id="viewEvent">
+    <h2>Event</h2>
+    <p id="eventText">This is sample event</p>
+    <button id="btnDelete">Delete</button>
+    <button class="btnClose">Close</button>
+   </div>
+   
+    <script src="calendar.js"></script>
+</body>
+</html>
